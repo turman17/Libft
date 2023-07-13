@@ -62,7 +62,7 @@ int main()
 Compile the program like this:
 
 ```bash
-gcc -L. -lft main.c -o prog
+make
 ```
 
 This tells the compiler to look in the current directory for the `libft` library and links it to your program.
